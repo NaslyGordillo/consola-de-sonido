@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="600.0">
+         <image>
+            <Image url="@fondo.jpg" />
+         </image>
+      </ImageView>
+      <Pane fx:id="Panel3" layoutX="71.0" layoutY="353.0" prefHeight="233.0" prefWidth="487.0">
+         <children>
+            <Slider fx:id="SliderE0" layoutX="17.0" layoutY="10.0" orientation="VERTICAL" prefHeight="107.0" prefWidth="14.0" />
+            <Slider fx:id="SliderE1" layoutX="43.0" layoutY="10.0" orientation="VERTICAL" prefHeight="107.0" prefWidth="14.0" />
+            <Slider fx:id="SliderE2" layoutX="69.0" layoutY="8.0" orientation="VERTICAL" prefHeight="107.0" prefWidth="14.0" />
+            <Slider fx:id="SliderE3" layoutX="92.0" layoutY="10.0" orientation="VERTICAL" prefHeight="107.0" prefWidth="14.0" />
+            <Slider fx:id="SliderE4" layoutX="119.0" layoutY="11.0" orientation="VERTICAL" prefHeight="107.0" prefWidth="14.0" />
+            <Slider fx:id="SliderE5" layoutX="148.0" layoutY="11.0" orientation="VERTICAL" prefHeight="107.0" prefWidth="14.0" />
+            <Slider fx:id="SliderE6" layoutX="178.0" layoutY="12.0" orientation="VERTICAL" prefHeight="107.0" prefWidth="14.0" />
+            <Slider fx:id="SliderE7" layoutX="210.0" layoutY="14.0" orientation="VERTICAL" prefHeight="107.0" prefWidth="14.0" />
+            <Slider fx:id="SliderE8" layoutX="241.0" layoutY="10.0" orientation="VERTICAL" prefHeight="107.0" prefWidth="14.0" />
+            <Slider fx:id="SliderE9" layoutX="280.0" layoutY="10.0" orientation="VERTICAL" prefHeight="107.0" prefWidth="14.0" />
+            <Button fx:id="BresetE" layoutX="293.0" layoutY="52.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="36.0" text="reset2" />
+            <ImageView fitHeight="17.0" fitWidth="18.0" layoutX="302.0" layoutY="61.0">
+               <image>
+                  <Image url="@reset.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="BMute" layoutX="343.0" layoutY="15.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="48.0" text="mute" />
+            <ImageView fitHeight="20.0" fitWidth="36.0" layoutX="350.0" layoutY="23.0">
+               <image>
+                  <Image url="@sin%20volumen.png" />
+               </image>
+            </ImageView>
+            <Slider fx:id="SVolumen" layoutX="369.0" layoutY="4.0" orientation="VERTICAL" prefHeight="185.0" prefWidth="62.0" />
+            <Text fill="#eb32c0" layoutX="378.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Volumen" wrappingWidth="47.583984375" />
+            <ProgressBar fx:id="ProE1" layoutX="-26.0" layoutY="165.0" prefHeight="14.0" prefWidth="100.0" progress="0.0" rotate="90.0" />
+            <ProgressBar fx:id="ProE2" layoutY="165.0" prefHeight="14.0" prefWidth="100.0" progress="0.0" rotate="90.0" />
+            <ProgressBar fx:id="ProE3" layoutX="26.0" layoutY="165.0" prefHeight="14.0" prefWidth="100.0" progress="0.0" rotate="90.0" />
+            <ProgressBar fx:id="ProE4" layoutX="51.0" layoutY="165.0" prefHeight="14.0" prefWidth="100.0" progress="0.0" rotate="90.0" />
+            <ProgressBar fx:id="ProE5" layoutX="76.0" layoutY="165.0" prefHeight="14.0" prefWidth="100.0" progress="0.0" rotate="90.0" />
+            <ProgressBar fx:id="ProE6" layoutX="101.0" layoutY="165.0" prefHeight="14.0" prefWidth="100.0" progress="0.0" rotate="90.0" />
+            <ProgressBar fx:id="ProE7" layoutX="127.0" layoutY="165.0" prefHeight="14.0" prefWidth="100.0" progress="0.0" rotate="90.0" />
+            <ProgressBar fx:id="ProE8" layoutX="153.0" layoutY="165.0" prefHeight="14.0" prefWidth="100.0" progress="0.0" rotate="90.0" />
+            <ProgressBar fx:id="ProE9" layoutX="179.0" layoutY="165.0" prefHeight="14.0" prefWidth="100.0" progress="0.0" rotate="90.0" />
+            <ProgressBar fx:id="ProE10" layoutX="205.0" layoutY="165.0" prefHeight="14.0" prefWidth="100.0" progress="0.0" rotate="90.0" />
+            <ProgressBar fx:id="ProE11" layoutX="230.0" layoutY="165.0" prefHeight="14.0" prefWidth="100.0" progress="0.0" rotate="90.0" />
+            <ProgressBar fx:id="ProE12" layoutX="255.0" layoutY="165.0" prefHeight="14.0" prefWidth="100.0" progress="0.0" rotate="90.0" />
+            <ProgressBar fx:id="ProE13" layoutX="280.0" layoutY="165.0" prefHeight="14.0" prefWidth="100.0" progress="0.0" rotate="90.0" />
+            <ProgressBar fx:id="ProE14" layoutX="306.0" layoutY="165.0" prefHeight="14.0" prefWidth="100.0" progress="0.0" rotate="90.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="panel2" layoutX="300.0" layoutY="48.0" prefHeight="185.0" prefWidth="178.0">
+         <children>
+            <Button fx:id="BPlay" layoutX="27.0" layoutY="22.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="56.0" text="play" />
+            <ImageView fitHeight="20.0" fitWidth="26.0" layoutX="43.0" layoutY="30.0">
+               <image>
+                  <Image url="@paly.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="BStop" layoutX="96.0" layoutY="22.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="56.0" text="Stop" />
+            <ImageView fitHeight="25.0" fitWidth="26.0" layoutX="114.0" layoutY="27.0">
+               <image>
+                  <Image url="@stop.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="BAnterior" layoutX="27.0" layoutY="67.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="56.0" text="retro" />
+            <ImageView fitHeight="25.0" fitWidth="26.0" layoutX="42.0" layoutY="72.0">
+               <image>
+                  <Image url="@retroceso.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="BSiguiente" layoutX="96.0" layoutY="68.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="56.0" text="adel" />
+            <ImageView fitHeight="27.0" fitWidth="26.0" layoutX="111.0" layoutY="71.0">
+               <image>
+                  <Image url="@adelantar.jpg" />
+               </image>
+            </ImageView>
+            <RadioButton fx:id="AutoReproducir" layoutX="27.0" layoutY="153.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="125.0" text="Auto Reproducir" textFill="#e134b0" />
+            <Button fx:id="BBuscar" layoutX="28.0" layoutY="112.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="56.0" text="bus" />
+            <Button layoutX="98.0" layoutY="112.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="56.0" text="Button" />
+            <ImageView fitHeight="25.0" fitWidth="26.0" layoutX="43.0" layoutY="117.0">
+               <image>
+                  <Image url="@busqueda.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane fx:id="Panel1" layoutY="36.0" prefHeight="309.0" prefWidth="306.0">
+         <children>
+            <Slider fx:id="SReproduccion" layoutX="4.0" layoutY="224.0" prefHeight="20.0" prefWidth="283.0" />
+            <Slider fx:id="SBalanceo" layoutX="90.0" layoutY="244.0" />
+            <Text fill="#ee18eb" layoutX="98.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Balanceo de Akltavoces" />
+            <Button fx:id="BBalanceR" layoutX="124.0" layoutY="277.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="36.0" text="res1" />
+            <ImageView fitHeight="17.0" fitWidth="18.0" layoutX="132.0" layoutY="283.0">
+               <image>
+                  <Image url="@reset.png" />
+               </image>
+            </ImageView>
+            <ListView fx:id="ListCanciones" layoutX="14.0" layoutY="8.0" prefHeight="217.0" prefWidth="263.0" />
+            <ScrollBar layoutX="15.0" layoutY="207.0" prefHeight="17.0" prefWidth="263.0" />
+            <ScrollBar layoutX="259.0" layoutY="8.0" orientation="VERTICAL" prefHeight="196.0" prefWidth="18.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="Panel" layoutX="463.0" layoutY="228.0" prefHeight="117.0" prefWidth="116.0">
+         <children>
+            <Button fx:id="BEliminar" layoutX="9.0" layoutY="11.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="36.0" text="Elimi" />
+            <ImageView fitHeight="27.0" fitWidth="26.0" layoutX="14.0" layoutY="18.0">
+               <image>
+                  <Image url="@eliminar.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="BMicro" layoutX="54.0" layoutY="13.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="56.0" text="micr" />
+            <ImageView fitHeight="35.0" fitWidth="36.0" layoutX="64.0" layoutY="16.0">
+               <image>
+                  <Image url="@microfono.jpg" />
+               </image>
+            </ImageView>
+            <ProgressBar fx:id="BarraProgresoM" layoutX="6.0" layoutY="71.0" prefHeight="18.0" prefWidth="104.0" progress="0.0" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="28.0" fitWidth="523.0" layoutX="34.0">
+         <image>
+            <Image url="@consola.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
